@@ -5,21 +5,21 @@ module.exports = {
     //Your bot data
     bot: {
         //PASTE YOUR DISCORD BOT TOKEN IN DATA.JSON FILE (more secure) - https://tinyurl.com/discordbot-token
-        prefix: "", //Your custom prefix of the bot, like "!" or "."
-        presence: "", //Custom activity/status text
-        status: "",  //You can choose: ONLINE, IDLE, DND (do not disturb), INVISIBLE
-        activity: "", //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
-        guildID: "", //Your Discord server guild ID
+        prefix: "!", //Your custom prefix of the bot, like "!" or "."
+        presence: "Bot", //Custom activity/status text
+        status: "ONLINE",  //You can choose: ONLINE, IDLE, DND (do not disturb), INVISIBLE
+        activity: "PLAYING", //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
+        guildID: "1519551026922000454", //Your Discord server guild ID
     },
 
     //Your Minecraft server data
     server: {
-        name: "", //Your server name
-        type: "", //"java" or "bedrock"
-        ip: "", //IP of your server - do not include port - e.g. "mc.hypixel.net"
-        port: "", //PORT of your server - empty => default port (JA 25565, BE 19132)
+        name: "PlayRN", //Your server name
+        type: "java", //"java" or "bedrock"
+        ip: "playrn.playwithbao.com", //IP of your server - do not include port - e.g. "mc.hypixel.net"
+        port: "55210", //PORT of your server - empty => default port (JA 25565, BE 19132)
         icon: "", //Link to icon - like "https://website.com/icon.png"
-        version: "", //Minecraft version of sever
+        version: "26.1.2", //Minecraft version of sever
         vote: "" //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
     },
 
