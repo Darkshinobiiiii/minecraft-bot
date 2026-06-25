@@ -18,7 +18,7 @@ module.exports = {
         type: "java", //"java" or "bedrock"
         ip: "playrn.playwithbao.com", //IP of your server - do not include port - e.g. "mc.hypixel.net"
         port: "55210", //PORT of your server - empty => default port (JA 25565, BE 19132)
-        icon: "", //Link to icon - like "https://website.com/icon.png"
+        icon: "https://i.postimg.cc/8cLV7nNC/server-icon.png", //Link to icon - like "https://website.com/icon.png"
         version: "26.1.2", //Minecraft version of sever
         vote: "" //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
     },
@@ -49,7 +49,7 @@ module.exports = {
 
     //Auto changing status message
     statusCH: {
-        channelID: "",
+        channelID: "1519551027374719028",
         time: "30s" //Period of updating status message - like "3min", "20s" or "1min" etc.
     },
 
